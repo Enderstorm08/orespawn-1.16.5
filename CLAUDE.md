@@ -48,7 +48,7 @@ Before touching any important item, block, mob, renderer, or UI element, read:
 - `ITEM_CONTINUITY.md`
 - `AGENTS.md`
 
-If the change involves iconic weapons like Big Bertha, Royal Guardian Sword, Slice, Attitude Adjuster, Queen Battle Axe, Ultimate Bow, or Ultimate Fishing Rod, inspect the matching legacy item and renderer classes too.
+If the change involves any iconic oversized weapon, inspect the matching legacy item and renderer classes too.
 
 ## Current Repo Layout
 
@@ -73,9 +73,9 @@ For currently ported content:
 - do not break existing legacy-named texture files that still support unfinished slices
 - verify model texture paths after edits
 
-## Iconic Weapon Display Transforms
+## Oversized Weapon Display Transforms
 
-Oversized weapons (Bertha, Slice, Royal Guardian Sword, Attitude Adjuster, Queen Battle Axe) use these confirmed working transforms:
+Any weapon intended to appear oversized uses these confirmed working transforms:
 
 ```json
 "thirdperson_righthand": { "rotation": [0, -90, 55], "translation": [0, 3.5, 2.0], "scale": [1.75, 1.75, 1.75] },
@@ -84,8 +84,9 @@ Oversized weapons (Bertha, Slice, Royal Guardian Sword, Attitude Adjuster, Queen
 "firstperson_lefthand":  { "rotation": [0, 90, -25], "translation": [1.13, 3.2, 1.13], "scale": [1.45, 1.45, 1.45] }
 ```
 
-- Rotations match vanilla `item/handheld` exactly — deviating breaks the hold angle.
-- Z=2.0 in third-person keeps the handle in the player's grip at 1.75x scale (vanilla Z=0.5 sits too far back).
+- Rotations mirror vanilla `item/handheld` exactly — deviating breaks the hold angle.
+- Scale is 1.75x third-person and 1.45x first-person to preserve the oversized feel.
+- Z translation of `2.0` in third-person moves the handle forward into the player's grip; vanilla `0.5` sits too far back at this scale.
 - Always build from the main repo root, not a worktree.
 
 ## Build And Test

@@ -40,7 +40,7 @@ Before touching any iconic item, weapon, block, mob, or UI element, read:
 - `ITEM_CONTINUITY.md`
 - `PORTING.md`
 
-If the change involves Big Bertha, Royal Guardian Sword, The Slice, Attitude Adjuster, Queen Battle Axe, Ultimate Bow, or Ultimate Fishing Rod, also inspect the relevant legacy renderer and item class in `legacy-src`.
+If the change involves any iconic oversized weapon, also inspect the relevant legacy renderer and item class in `legacy-src`.
 
 ## Continuity Rules
 
@@ -53,8 +53,8 @@ If the change involves Big Bertha, Royal Guardian Sword, The Slice, Attitude Adj
 3. Iconic OreSpawn weapons are not normal vanilla-scale items.
    If a legacy item had a dedicated renderer/model, do not accept a plain default handheld presentation as "done".
 
-4. Big Bertha continuity means more than a texture.
-   It should remain visually oversized, extremely durable, and mechanically exceptional.
+4. Iconic weapon continuity means more than a texture.
+   Each should remain visually oversized, extremely durable, and mechanically exceptional.
 
 5. Do not silently flatten iconic weapons into normal balance.
    If a legacy stat or behavior is intentionally reduced for technical reasons, document the gap in `ITEM_CONTINUITY.md`.
@@ -77,9 +77,9 @@ For visual tuning:
 - Do not assume one screenshot explains both; ask or infer carefully from context.
 - If JSON transforms cannot preserve the old feel, move to a custom renderer rather than accepting a bad approximation.
 
-## Iconic Weapon Display Transforms
+## Oversized Weapon Display Transforms
 
-Oversized iconic weapons (Big Bertha, Slice, Royal Guardian Sword, Attitude Adjuster, Queen Battle Axe) use the following confirmed working display transforms in their item model JSON:
+Any weapon intended to appear oversized uses the following confirmed working display transforms in its item model JSON:
 
 ```json
 "thirdperson_righthand": {
@@ -105,9 +105,9 @@ Oversized iconic weapons (Big Bertha, Slice, Royal Guardian Sword, Attitude Adju
 ```
 
 Key notes:
-- Rotations follow vanilla `item/handheld` patterns exactly. **Do not deviate** — prior attempts with values like `[88, -92, 8]` or `[188, -6, 18]` caused the blade to point sideways or flip upside-down.
-- Scale is 1.75x third-person and 1.45x first-person to preserve the oversized OreSpawn feel.
-- The Z translation of `2.0` in third-person (vs vanilla's `0.5`) moves the handle forward into the player's grip. Vanilla `[0, 4.0, 0.5]` leaves the handle too far back at this scale.
+- Rotations mirror vanilla `item/handheld` exactly. **Do not deviate** — wrong values cause the blade to point sideways or flip upside-down.
+- Scale is 1.75x third-person and 1.45x first-person to preserve the oversized feel.
+- Z translation of `2.0` in third-person moves the handle forward into the player's grip; vanilla `0.5` leaves the handle too far back at this scale.
 - The build must always be run from the **main repo root** (`C:\Codex\orespawn-1.16.5`), not a worktree — Gradle in worktrees may fail due to version mismatches. Changes in a worktree must be copied to the main repo before building.
 
 ## Documentation Rules
