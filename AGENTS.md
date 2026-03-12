@@ -19,11 +19,11 @@ Do not treat this as a generic Forge mod. The goal is not just feature parity; i
 
 Use sources in this order:
 
-1. `F:\CODEX\P10\Orespawn-1.7.10-20.0.jar.src\danger\orespawn\OreSpawnMain.java`
-2. other extracted legacy classes in `F:\CODEX\P10\Orespawn-1.7.10-20.0.jar.src\danger\orespawn`
-3. `F:\CODEX\P10\legacy-src\danger\orespawn\OreSpawnMain.java`
-4. other decompiled legacy classes in `F:\CODEX\P10\legacy-src\danger\orespawn`
-5. `F:\CODEX\P10\orespawn-1.16.5\ITEM_CONTINUITY.md`
+1. `Orespawn-1.7.10-20.0.jar.src/danger/orespawn/OreSpawnMain.java`
+2. other extracted legacy classes in `Orespawn-1.7.10-20.0.jar.src/danger/orespawn`
+3. `legacy-src/danger/orespawn/OreSpawnMain.java`
+4. other decompiled legacy classes in `legacy-src/danger/orespawn`
+5. `ITEM_CONTINUITY.md`
 6. community-facing OreSpawn wiki pages for naming/category continuity
 
 Interpretation rule:
@@ -37,8 +37,8 @@ Interpretation rule:
 
 Before touching any iconic item, weapon, block, mob, or UI element, read:
 
-- `F:\CODEX\P10\orespawn-1.16.5\ITEM_CONTINUITY.md`
-- `F:\CODEX\P10\orespawn-1.16.5\PORTING.md`
+- `ITEM_CONTINUITY.md`
+- `PORTING.md`
 
 If the change involves Big Bertha, Royal Guardian Sword, The Slice, Attitude Adjuster, Queen Battle Axe, Ultimate Bow, or Ultimate Fishing Rod, also inspect the relevant legacy renderer and item class in `legacy-src`.
 

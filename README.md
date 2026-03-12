@@ -53,6 +53,8 @@ Currently ported standalone items:
 
 - `src/main/java` - current 1.16.5 source
 - `src/main/resources` - current 1.16.5 assets and data
+- `Orespawn-1.7.10-20.0.jar` - original legacy mod JAR kept in-repo for recovery/reference
+- `Orespawn-1.7.10-20.0.jar.src` - extracted legacy source tree reference
 - `legacy-jar` - extracted 1.7.10 JAR contents used for reference and asset recovery
 - `legacy-src` - decompiled 1.7.10 source used for behavior lookup
 - `PORTING.md` - porting notes and migration slices

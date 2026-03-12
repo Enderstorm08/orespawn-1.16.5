@@ -1,12 +1,14 @@
 # OreSpawn 1.16.5 Port Notes
 
-This workspace started with only the legacy `Orespawn-1.7.10-20.0.jar`, so the first step of the port was rebuilding a workable source baseline around it.
+This workspace started with only the legacy `Orespawn-1.7.10-20.0.jar`, so the first step of the port was rebuilding a workable source baseline around it. The recovered legacy references now live inside this repository.
 
 ## Recovered Baseline
 
-- `F:\CODEX\P10\legacy-jar`: extracted contents of the 1.7.10 JAR for asset lookup
-- `F:\CODEX\P10\legacy-src`: CFR decompilation of the full legacy codebase for reference while porting
-- `F:\CODEX\P10\orespawn-1.16.5`: Forge 1.16.5 workspace used for the actual port
+- `legacy-jar`: extracted contents of the 1.7.10 JAR for asset lookup
+- `legacy-src`: CFR decompilation of the full legacy codebase for reference while porting
+- `Orespawn-1.7.10-20.0.jar.src`: extracted legacy source tree used as the highest-priority source reference
+- `Orespawn-1.7.10-20.0.jar`: original legacy JAR preserved in-repo
+- repository root: Forge 1.16.5 workspace used for the actual port
 
 ## Legacy Inventory
 

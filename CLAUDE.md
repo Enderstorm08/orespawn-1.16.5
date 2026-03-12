@@ -26,11 +26,11 @@ Do not flatten OreSpawn into a generic Forge content pack.
 
 When deciding how something should behave, use sources in this order:
 
-1. `F:\CODEX\P10\Orespawn-1.7.10-20.0.jar.src\danger\orespawn\OreSpawnMain.java`
-2. Other extracted legacy classes in `F:\CODEX\P10\Orespawn-1.7.10-20.0.jar.src\danger\orespawn`
-3. `F:\CODEX\P10\legacy-src\danger\orespawn\OreSpawnMain.java`
-4. Other decompiled legacy classes in `F:\CODEX\P10\legacy-src\danger\orespawn`
-5. `F:\CODEX\P10\orespawn-1.16.5\ITEM_CONTINUITY.md`
+1. `Orespawn-1.7.10-20.0.jar.src/danger/orespawn/OreSpawnMain.java`
+2. Other extracted legacy classes in `Orespawn-1.7.10-20.0.jar.src/danger/orespawn`
+3. `legacy-src/danger/orespawn/OreSpawnMain.java`
+4. Other decompiled legacy classes in `legacy-src/danger/orespawn`
+5. `ITEM_CONTINUITY.md`
 6. Community OreSpawn wiki pages for naming and category continuity
 
 If sources disagree:
@@ -43,10 +43,10 @@ If sources disagree:
 
 Before touching any important item, block, mob, renderer, or UI element, read:
 
-- `F:\CODEX\P10\orespawn-1.16.5\README.md`
-- `F:\CODEX\P10\orespawn-1.16.5\PORTING.md`
-- `F:\CODEX\P10\orespawn-1.16.5\ITEM_CONTINUITY.md`
-- `F:\CODEX\P10\orespawn-1.16.5\AGENTS.md`
+- `README.md`
+- `PORTING.md`
+- `ITEM_CONTINUITY.md`
+- `AGENTS.md`
 
 If the change involves iconic weapons like Big Bertha, Royal Guardian Sword, Slice, Attitude Adjuster, Queen Battle Axe, Ultimate Bow, or Ultimate Fishing Rod, inspect the matching legacy item and renderer classes too.
 

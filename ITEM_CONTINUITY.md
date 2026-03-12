@@ -4,7 +4,7 @@ This file keeps the 1.16.5 port aligned with the player-facing OreSpawn item tax
 
 Reference sources:
 - Community-facing item categories and names: <https://minecraft-mods.fandom.com/wiki/OreSpawn#Items>
-- Exact 1.7.10 registration names and display names: `F:\CODEX\P10\legacy-src\danger\orespawn\OreSpawnMain.java`
+- Exact 1.7.10 registration names and display names: `legacy-src/danger/orespawn/OreSpawnMain.java`
 
 Important note:
 - The Fandom page is tagged as a `1.12.2` page, so it is best treated as a continuity guide for names/categories.
