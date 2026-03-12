@@ -77,6 +77,39 @@ For visual tuning:
 - Do not assume one screenshot explains both; ask or infer carefully from context.
 - If JSON transforms cannot preserve the old feel, move to a custom renderer rather than accepting a bad approximation.
 
+## Iconic Weapon Display Transforms
+
+Oversized iconic weapons (Big Bertha, Slice, Royal Guardian Sword, Attitude Adjuster, Queen Battle Axe) use the following confirmed working display transforms in their item model JSON:
+
+```json
+"thirdperson_righthand": {
+  "rotation": [0, -90, 55],
+  "translation": [0, 3.5, 2.0],
+  "scale": [1.75, 1.75, 1.75]
+},
+"thirdperson_lefthand": {
+  "rotation": [0, 90, -55],
+  "translation": [0, 3.5, 2.0],
+  "scale": [1.75, 1.75, 1.75]
+},
+"firstperson_righthand": {
+  "rotation": [0, -90, 25],
+  "translation": [1.13, 3.2, 1.13],
+  "scale": [1.45, 1.45, 1.45]
+},
+"firstperson_lefthand": {
+  "rotation": [0, 90, -25],
+  "translation": [1.13, 3.2, 1.13],
+  "scale": [1.45, 1.45, 1.45]
+}
+```
+
+Key notes:
+- Rotations follow vanilla `item/handheld` patterns exactly. **Do not deviate** — prior attempts with values like `[88, -92, 8]` or `[188, -6, 18]` caused the blade to point sideways or flip upside-down.
+- Scale is 1.75x third-person and 1.45x first-person to preserve the oversized OreSpawn feel.
+- The Z translation of `2.0` in third-person (vs vanilla's `0.5`) moves the handle forward into the player's grip. Vanilla `[0, 4.0, 0.5]` leaves the handle too far back at this scale.
+- The build must always be run from the **main repo root** (`C:\Codex\orespawn-1.16.5`), not a worktree — Gradle in worktrees may fail due to version mismatches. Changes in a worktree must be copied to the main repo before building.
+
 ## Documentation Rules
 
 Whenever you add or change continuity-sensitive behavior:

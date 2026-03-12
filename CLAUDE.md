@@ -73,6 +73,21 @@ For currently ported content:
 - do not break existing legacy-named texture files that still support unfinished slices
 - verify model texture paths after edits
 
+## Iconic Weapon Display Transforms
+
+Oversized weapons (Bertha, Slice, Royal Guardian Sword, Attitude Adjuster, Queen Battle Axe) use these confirmed working transforms:
+
+```json
+"thirdperson_righthand": { "rotation": [0, -90, 55], "translation": [0, 3.5, 2.0], "scale": [1.75, 1.75, 1.75] },
+"thirdperson_lefthand":  { "rotation": [0, 90, -55], "translation": [0, 3.5, 2.0], "scale": [1.75, 1.75, 1.75] },
+"firstperson_righthand": { "rotation": [0, -90, 25], "translation": [1.13, 3.2, 1.13], "scale": [1.45, 1.45, 1.45] },
+"firstperson_lefthand":  { "rotation": [0, 90, -25], "translation": [1.13, 3.2, 1.13], "scale": [1.45, 1.45, 1.45] }
+```
+
+- Rotations match vanilla `item/handheld` exactly — deviating breaks the hold angle.
+- Z=2.0 in third-person keeps the handle in the player's grip at 1.75x scale (vanilla Z=0.5 sits too far back).
+- Always build from the main repo root, not a worktree.
+
 ## Build And Test
 
 Build with:
