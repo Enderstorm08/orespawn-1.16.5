@@ -10,7 +10,10 @@ public enum OreSpawnItemTiers implements IItemTier {
     AMETHYST(2, 1000, 8.0F, 2.5F, 18, () -> Ingredient.of(OreSpawnItems.AMETHYST.get())),
     ULTIMATE(4, 2800, 11.0F, 5.0F, 30, () -> Ingredient.of(OreSpawnItems.INGOT_TITANIUM.get(), OreSpawnItems.INGOT_URANIUM.get())),
     NIGHTMARE(4, 3200, 11.5F, 6.0F, 24, () -> Ingredient.of(OreSpawnItems.NIGHTMARE_SCALE.get())),
-    BERTHA(3, 9000, 15.0F, 496.0F, 100, () -> Ingredient.of(OreSpawnItems.BERTHA_BLADE.get(), OreSpawnItems.BERTHA_GUARD.get(), OreSpawnItems.BERTHA_HANDLE.get()));
+    BERTHA(3, 9000, 15.0F, 496.0F, 100, () -> Ingredient.of(OreSpawnItems.BERTHA_BLADE.get(), OreSpawnItems.BERTHA_GUARD.get(), OreSpawnItems.BERTHA_HANDLE.get())),
+    ROYAL(3, 10000, 15.0F, 746.0F, 150, () -> Ingredient.of(OreSpawnItems.CRYSTAL_PINK_INGOT.get(), OreSpawnItems.TIGERS_EYE_INGOT.get())),
+    HAMMY(5, 2000, 15.0F, 82.0F, 100, () -> Ingredient.of(OreSpawnItems.INGOT_TITANIUM.get(), OreSpawnItems.INGOT_URANIUM.get())),
+    QUEEN_BATTLE(3, 2200, 15.0F, 662.0F, 100, () -> Ingredient.of(OreSpawnItems.NIGHTMARE_SCALE.get()));
 
     private final int level;
     private final int uses;

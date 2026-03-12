@@ -50,15 +50,15 @@ Important note:
 | --- | --- | --- |
 | Big Bertha | `OreSpawn_Bertha`, display name `Big Bertha` | Ported as `bertha`; display name aligned, legacy-sized presentation restored, legacy durability/damage profile restored, Bertha parts added |
 | Emerald Sword | `OreSpawn_EmeraldSword` | Pending |
-| Royal Guardian Sword | `OreSpawn_Royal`, display name `Royal Guardian Sword` | Pending |
+| Royal Guardian Sword | `OreSpawn_Royal`, display name `Royal Guardian Sword` | Ported |
 | Ruby Sword | `OreSpawn_RubySword` | Ported |
-| The Slice | `OreSpawn_Slice`, display name `Slice` | Pending |
+| The Slice | `OreSpawn_Slice`, display name `Slice` | Ported |
 | The Ultimate Sword | `OreSpawn_UltimateSword`, display name `The Ultimate Sword` | Ported; display name aligned |
-| The Ultimate Bow | `OreSpawn_UltimateBow`, display name `The Ultimate Bow` | Pending |
-| The Skate String Bow | `OreSpawn_SkateBow`, display name `Skate String Bow` | Pending |
-| Attitude Adjuster | `OreSpawn_Hammy`, display name `Attitude Adjuster` | Pending |
-| Queen Battle Axe | `OreSpawn_QueenBattleAxe` | Pending |
-| Ultimate Fishing Rod | `OreSpawn_UltimateFishingRod`, display name `The Ultimate Fishing Rod` | Pending |
+| The Ultimate Bow | `OreSpawn_UltimateBow`, display name `The Ultimate Bow` | Ported |
+| The Skate String Bow | `OreSpawn_SkateBow`, display name `Skate String Bow` | Ported |
+| Attitude Adjuster | `OreSpawn_Hammy`, display name `Attitude Adjuster` | Ported |
+| Queen Battle Axe | `OreSpawn_QueenBattleAxe` | Ported as `queen_battle_axe`; display name aligned to `Queen Scale Battle Axe` |
+| Ultimate Fishing Rod | `OreSpawn_UltimateFishingRod`, display name `The Ultimate Fishing Rod` | Ported |
 
 ### Ore Drops
 

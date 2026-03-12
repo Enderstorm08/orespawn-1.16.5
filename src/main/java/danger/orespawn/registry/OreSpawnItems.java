@@ -1,7 +1,13 @@
 package danger.orespawn.registry;
 
 import danger.orespawn.OreSpawn;
+import danger.orespawn.item.AutoEnchantedBowItem;
+import danger.orespawn.item.AutoEnchantedFishingRodItem;
 import danger.orespawn.item.OreSpawnItemGroup;
+import java.util.LinkedHashMap;
+import java.util.Map;
+import net.minecraft.enchantment.Enchantments;
+import net.minecraft.item.AxeItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.SwordItem;
@@ -45,9 +51,40 @@ public final class OreSpawnItems {
             "bertha",
             () -> new SwordItem(OreSpawnItemTiers.BERTHA, 4, -2.6F, baseProperties().stacksTo(1).durability(9000))
     );
+    public static final RegistryObject<Item> SLICE = ITEMS.register(
+            "slice",
+            () -> new SwordItem(OreSpawnItemTiers.BERTHA, 4, -2.4F, baseProperties().stacksTo(1).durability(9000))
+    );
+    public static final RegistryObject<Item> ROYAL_GUARDIAN_SWORD = ITEMS.register(
+            "royal_guardian_sword",
+            () -> new SwordItem(OreSpawnItemTiers.ROYAL, 4, -2.4F, baseProperties().stacksTo(1).durability(10000))
+    );
+    public static final RegistryObject<Item> ATTITUDE_ADJUSTER = ITEMS.register(
+            "attitude_adjuster",
+            () -> new SwordItem(OreSpawnItemTiers.HAMMY, 5, -2.6F, baseProperties().stacksTo(1).durability(2000))
+    );
+    public static final RegistryObject<Item> QUEEN_BATTLE_AXE = ITEMS.register(
+            "queen_battle_axe",
+            () -> new AxeItem(OreSpawnItemTiers.QUEEN_BATTLE, 12.0F, -3.0F, baseProperties().stacksTo(1).durability(2200))
+    );
     public static final RegistryObject<Item> ULTIMATE_PICKAXE = ITEMS.register(
             "ultimate_pickaxe",
             () -> new PickaxeItem(OreSpawnItemTiers.ULTIMATE, 2, -2.6F, baseProperties().stacksTo(1).durability(3000))
+    );
+    public static final RegistryObject<Item> ULTIMATE_BOW = ITEMS.register(
+            "ultimate_bow",
+            () -> new AutoEnchantedBowItem(baseProperties().stacksTo(1).durability(1000), defaultUltimateBowEnchantments())
+    );
+    public static final RegistryObject<Item> SKATE_BOW = ITEMS.register(
+            "skate_bow",
+            () -> new AutoEnchantedBowItem(baseProperties().stacksTo(1).durability(300), defaultSkateBowEnchantments())
+    );
+    public static final RegistryObject<Item> ULTIMATE_FISHING_ROD = ITEMS.register(
+            "ultimate_fishing_rod",
+            () -> new AutoEnchantedFishingRodItem(
+                    baseProperties().stacksTo(1).durability(3000),
+                    defaultUltimateFishingRodEnchantments()
+            )
     );
 
     private OreSpawnItems() {
@@ -62,6 +99,30 @@ public final class OreSpawnItems {
     }
 
     public static int portedStandaloneItemCount() {
-        return 16;
+        return 23;
+    }
+
+    private static Map<net.minecraft.enchantment.Enchantment, Integer> defaultUltimateBowEnchantments() {
+        Map<net.minecraft.enchantment.Enchantment, Integer> enchantments = new LinkedHashMap<>();
+        enchantments.put(Enchantments.POWER_ARROWS, 5);
+        enchantments.put(Enchantments.PUNCH_ARROWS, 3);
+        enchantments.put(Enchantments.FLAMING_ARROWS, 2);
+        enchantments.put(Enchantments.INFINITY_ARROWS, 1);
+        return enchantments;
+    }
+
+    private static Map<net.minecraft.enchantment.Enchantment, Integer> defaultSkateBowEnchantments() {
+        Map<net.minecraft.enchantment.Enchantment, Integer> enchantments = new LinkedHashMap<>();
+        enchantments.put(Enchantments.POWER_ARROWS, 3);
+        enchantments.put(Enchantments.PUNCH_ARROWS, 2);
+        enchantments.put(Enchantments.FLAMING_ARROWS, 1);
+        return enchantments;
+    }
+
+    private static Map<net.minecraft.enchantment.Enchantment, Integer> defaultUltimateFishingRodEnchantments() {
+        Map<net.minecraft.enchantment.Enchantment, Integer> enchantments = new LinkedHashMap<>();
+        enchantments.put(Enchantments.FISHING_LUCK, 2);
+        enchantments.put(Enchantments.FISHING_SPEED, 2);
+        return enchantments;
     }
 }

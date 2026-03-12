@@ -45,6 +45,13 @@ This workspace started with only the legacy `Orespawn-1.7.10-20.0.jar`, so the f
   - `nightmare_sword`
   - `bertha`
   - `ultimate_pickaxe`
+  - `slice`
+  - `royal_guardian_sword`
+  - `attitude_adjuster`
+  - `queen_battle_axe`
+  - `ultimate_bow`
+  - `skate_bow`
+  - `ultimate_fishing_rod`
 - Registered a small modern sound baseline over the recovered legacy sound assets:
   - `chainsaw`
   - `chainsawshort`

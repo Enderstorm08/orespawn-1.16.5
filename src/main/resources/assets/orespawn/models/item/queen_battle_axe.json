@@ -1,0 +1,28 @@
+{
+  "parent": "item/handheld",
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [88, -92, 8],
+      "translation": [0, 2.5, 0.0],
+      "scale": [1.75, 1.75, 1.75]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [88, 92, -8],
+      "translation": [0, 2.5, 0.0],
+      "scale": [1.75, 1.75, 1.75]
+    },
+    "firstperson_righthand": {
+      "rotation": [188, -6, 18],
+      "translation": [0.6, 1.8, -5.5],
+      "scale": [1.45, 1.45, 1.45]
+    },
+    "firstperson_lefthand": {
+      "rotation": [188, 6, -18],
+      "translation": [0.6, 1.8, -5.5],
+      "scale": [1.45, 1.45, 1.45]
+    }
+  },
+  "textures": {
+    "layer0": "orespawn:items/queen_battle_axe"
+  }
+}
