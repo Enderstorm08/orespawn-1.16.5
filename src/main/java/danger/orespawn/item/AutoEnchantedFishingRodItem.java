@@ -33,7 +33,7 @@ public class AutoEnchantedFishingRodItem extends FishingRodItem {
 
     @Override
     public boolean isFoil(ItemStack stack) {
-        return true;
+        return !this.defaultEnchantments.isEmpty() || super.isFoil(stack);
     }
 
     private void applyDefaultEnchantments(ItemStack stack) {

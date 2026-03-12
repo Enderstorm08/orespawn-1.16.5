@@ -6,10 +6,16 @@ import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.util.LazyValue;
 
 public enum OreSpawnItemTiers implements IItemTier {
-    RUBY(2, 900, 7.5F, 2.5F, 18, () -> Ingredient.of(OreSpawnItems.RUBY.get())),
-    AMETHYST(2, 1000, 8.0F, 2.5F, 18, () -> Ingredient.of(OreSpawnItems.AMETHYST.get())),
-    ULTIMATE(4, 2800, 11.0F, 5.0F, 30, () -> Ingredient.of(OreSpawnItems.INGOT_TITANIUM.get(), OreSpawnItems.INGOT_URANIUM.get())),
-    NIGHTMARE(4, 3200, 11.5F, 6.0F, 24, () -> Ingredient.of(OreSpawnItems.NIGHTMARE_SCALE.get())),
+    EXPERIENCE(3, 1400, 10.0F, 6.0F, 75, () -> Ingredient.of(net.minecraft.item.Items.EXPERIENCE_BOTTLE)),
+    CRYSTAL_WOOD(2, 300, 3.0F, 2.0F, 15, () -> Ingredient.of(net.minecraft.item.Items.STICK)),
+    CRYSTAL_STONE(3, 800, 6.0F, 5.0F, 45, () -> Ingredient.of(net.minecraft.item.Items.COBBLESTONE)),
+    EMERALD(3, 1300, 10.0F, 6.0F, 75, () -> Ingredient.of(net.minecraft.item.Items.EMERALD)),
+    CRYSTAL_PINK(4, 1100, 10.0F, 7.0F, 65, () -> Ingredient.of(OreSpawnItems.CRYSTAL_PINK_INGOT.get())),
+    TIGERS_EYE(4, 1600, 12.0F, 8.0F, 75, () -> Ingredient.of(OreSpawnItems.TIGERS_EYE_INGOT.get())),
+    RUBY(5, 1500, 11.0F, 16.0F, 85, () -> Ingredient.of(OreSpawnItems.RUBY.get())),
+    AMETHYST(4, 2000, 11.0F, 11.0F, 70, () -> Ingredient.of(OreSpawnItems.AMETHYST.get())),
+    ULTIMATE(10, 3000, 15.0F, 36.0F, 100, () -> Ingredient.of(OreSpawnItems.INGOT_TITANIUM.get(), OreSpawnItems.INGOT_URANIUM.get())),
+    NIGHTMARE(3, 1800, 12.0F, 26.0F, 60, () -> Ingredient.of(OreSpawnItems.NIGHTMARE_SCALE.get())),
     BERTHA(3, 9000, 15.0F, 496.0F, 100, () -> Ingredient.of(OreSpawnItems.BERTHA_BLADE.get(), OreSpawnItems.BERTHA_GUARD.get(), OreSpawnItems.BERTHA_HANDLE.get())),
     ROYAL(3, 10000, 15.0F, 746.0F, 150, () -> Ingredient.of(OreSpawnItems.CRYSTAL_PINK_INGOT.get(), OreSpawnItems.TIGERS_EYE_INGOT.get())),
     HAMMY(5, 2000, 15.0F, 82.0F, 100, () -> Ingredient.of(OreSpawnItems.INGOT_TITANIUM.get(), OreSpawnItems.INGOT_URANIUM.get())),

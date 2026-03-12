@@ -36,11 +36,17 @@ This workspace started with only the legacy `Orespawn-1.7.10-20.0.jar`, so the f
 - Ported the following standalone items:
   - `ingot_uranium`
   - `ingot_titanium`
+  - `uranium_nugget`
+  - `titanium_nugget`
   - `crystal_pink_ingot`
   - `tigers_eye_ingot`
   - `ruby`
   - `amethyst`
+  - `moth_scale`
+  - `lava_eel`
+  - `peacock_feather`
   - `nightmare_scale`
+  - `queen_scale`
   - `ruby_sword`
   - `amethyst_sword`
   - `ultimate_sword`
@@ -54,6 +60,100 @@ This workspace started with only the legacy `Orespawn-1.7.10-20.0.jar`, so the f
   - `ultimate_bow`
   - `skate_bow`
   - `ultimate_fishing_rod`
+  - `emerald_sword`
+  - `experience_sword`
+  - `emerald_pickaxe`
+  - `emerald_axe`
+  - `emerald_shovel`
+  - `emerald_hoe`
+  - `crystal_wood_sword`
+  - `crystal_wood_pickaxe`
+  - `crystal_wood_axe`
+  - `crystal_wood_shovel`
+  - `crystal_wood_hoe`
+  - `crystal_stone_sword`
+  - `crystal_stone_pickaxe`
+  - `crystal_stone_axe`
+  - `crystal_stone_shovel`
+  - `crystal_stone_hoe`
+  - `crystal_pink_sword`
+  - `crystal_pink_pickaxe`
+  - `crystal_pink_axe`
+  - `crystal_pink_shovel`
+  - `crystal_pink_hoe`
+  - `tigers_eye_sword`
+  - `tigers_eye_pickaxe`
+  - `tigers_eye_axe`
+  - `tigers_eye_shovel`
+  - `tigers_eye_hoe`
+  - `ruby_pickaxe`
+  - `ruby_axe`
+  - `ruby_shovel`
+  - `ruby_hoe`
+  - `amethyst_pickaxe`
+  - `amethyst_axe`
+  - `amethyst_shovel`
+  - `amethyst_hoe`
+- Ported the following armor set:
+  - `experience_helmet`
+  - `experience_chestplate`
+  - `experience_leggings`
+  - `experience_boots`
+- Ported the following armor set:
+  - `moth_scale_helmet`
+  - `moth_scale_chestplate`
+  - `moth_scale_leggings`
+  - `moth_scale_boots`
+- Ported the following armor set:
+  - `lava_eel_helmet`
+  - `lava_eel_chestplate`
+  - `lava_eel_leggings`
+  - `lava_eel_boots`
+- Ported the following armor set:
+  - `peacock_helmet`
+  - `peacock_chestplate`
+  - `peacock_leggings`
+  - `peacock_boots`
+- Ported the following armor set:
+  - `emerald_helmet`
+  - `emerald_chestplate`
+  - `emerald_leggings`
+  - `emerald_boots`
+- Ported the following armor set:
+  - `crystal_pink_helmet`
+  - `crystal_pink_chestplate`
+  - `crystal_pink_leggings`
+  - `crystal_pink_boots`
+- Ported the following armor set:
+  - `tigers_eye_helmet`
+  - `tigers_eye_chestplate`
+  - `tigers_eye_leggings`
+  - `tigers_eye_boots`
+- Ported the following armor set:
+  - `ruby_helmet`
+  - `ruby_chestplate`
+  - `ruby_leggings`
+  - `ruby_boots`
+- Ported the following armor set:
+  - `amethyst_helmet`
+  - `amethyst_chestplate`
+  - `amethyst_leggings`
+  - `amethyst_boots`
+- Ported the following armor set:
+  - `royal_guardian_helmet`
+  - `royal_guardian_chestplate`
+  - `royal_guardian_leggings`
+  - `royal_guardian_boots`
+- Ported the following armor set:
+  - `queen_scale_helmet`
+  - `queen_scale_chestplate`
+  - `queen_scale_leggings`
+  - `queen_scale_boots`
+- Ported the following armor set:
+  - `ultimate_helmet`
+  - `ultimate_chestplate`
+  - `ultimate_leggings`
+  - `ultimate_boots`
 - Registered a small modern sound baseline over the recovered legacy sound assets:
   - `chainsaw`
   - `chainsawshort`
