@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " E ",
+    " E ",
+    " S "
+  ],
+  "key": {
+    "E": {
+      "item": "orespawn:crystal_pink_ingot"
+    },
+    "S": {
+      "item": "orespawn:crystalsticks"
+    }
+  },
+  "result": {
+    "item": "orespawn:fairysword"
+  }
+}

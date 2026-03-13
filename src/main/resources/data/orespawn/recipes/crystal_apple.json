@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CAC",
+    "ATA",
+    "CAC"
+  ],
+  "key": {
+    "A": {
+      "item": "orespawn:amethyst"
+    },
+    "C": {
+      "item": "orespawn:crystal_pink_ingot"
+    },
+    "T": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result": {
+    "item": "orespawn:crystal_apple"
+  }
+}

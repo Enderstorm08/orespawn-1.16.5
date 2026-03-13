@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "QQQ",
+    "Q Q",
+    "Q Q"
+  ],
+  "key": {
+    "Q": { "item": "orespawn:queen_scale" }
+  },
+  "result": { "item": "orespawn:queen_scale_leggings" }
+}

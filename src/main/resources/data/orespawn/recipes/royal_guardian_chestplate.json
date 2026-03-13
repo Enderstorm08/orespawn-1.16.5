@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Q Q",
+    "QUQ",
+    "QQQ"
+  ],
+  "key": {
+    "Q": { "item": "orespawn:queen_scale" },
+    "U": { "item": "orespawn:ultimate_chestplate" }
+  },
+  "result": { "item": "orespawn:royal_guardian_chestplate" }
+}

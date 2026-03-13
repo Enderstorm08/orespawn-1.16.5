@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "EHE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "minecraft:experience_bottle"
+    },
+    "H": {
+      "item": "orespawn:emerald_helmet"
+    }
+  },
+  "result": {
+    "item": "orespawn:experience_helmet"
+  }
+}

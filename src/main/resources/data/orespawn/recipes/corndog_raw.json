@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "orespawn:corn_seed" },
+    { "item": "minecraft:beef" },
+    { "item": "minecraft:stick" },
+    { "item": "minecraft:wheat" }
+  ],
+  "result": {
+    "item": "orespawn:corndog_raw",
+    "count": 4
+  }
+}

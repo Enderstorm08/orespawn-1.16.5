@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    " G ",
+    " H "
+  ],
+  "key": {
+    "B": { "item": "orespawn:bertha_blade" },
+    "G": { "item": "orespawn:bertha_guard" },
+    "H": { "item": "orespawn:bertha_handle" }
+  },
+  "result": { "item": "orespawn:bertha" }
+}

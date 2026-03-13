@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "EIE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "orespawn:deadstinkbug"
+    },
+    "I": {
+      "item": "orespawn:emerald_sword"
+    }
+  },
+  "result": {
+    "item": "orespawn:poisonsword"
+  }
+}

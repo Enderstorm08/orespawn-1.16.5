@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "T",
+    "T",
+    "T"
+  ],
+  "key": {
+    "T": { "item": "orespawn:crystalsticks" }
+  },
+  "result": { "item": "orespawn:bertha_handle" }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CC ",
+    "CS ",
+    " S "
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:cobblestone"
+    },
+    "S": {
+      "item": "orespawn:crystalsticks"
+    }
+  },
+  "result": {
+    "item": "orespawn:crystal_stone_axe"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "block/cake_slice1",
+  "textures": {
+    "bottom": "orespawn:blocks/pizza_bottom",
+    "top": "orespawn:blocks/pizza_top",
+    "side": "orespawn:blocks/pizza_side",
+    "inside": "orespawn:blocks/pizza_inner",
+    "particle": "orespawn:blocks/pizza_side"
+  }
+}

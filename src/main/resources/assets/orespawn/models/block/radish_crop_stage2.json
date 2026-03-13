@@ -1,0 +1,4 @@
+{
+  "parent": "block/crop",
+  "textures": { "crop": "orespawn:blocks/radish_2" }
+}

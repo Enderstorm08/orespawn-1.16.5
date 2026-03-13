@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LLL",
+    "L L"
+  ],
+  "key": {
+    "L": {
+      "item": "orespawn:lava_eel"
+    }
+  },
+  "result": {
+    "item": "orespawn:lava_eel_helmet"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "orespawn:popcorn_buttered" },
+    { "item": "orespawn:salt" }
+  ],
+  "result": {
+    "item": "orespawn:popcorn_buttered_salted",
+    "count": 1
+  }
+}

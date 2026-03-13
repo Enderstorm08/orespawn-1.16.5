@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TU",
+    "UT",
+    " S"
+  ],
+  "key": {
+    "T": { "item": "orespawn:ingot_titanium" },
+    "U": { "item": "orespawn:ingot_uranium" },
+    "S": { "item": "orespawn:crystalsticks" }
+  },
+  "result": { "item": "orespawn:ultimate_sword" }
+}

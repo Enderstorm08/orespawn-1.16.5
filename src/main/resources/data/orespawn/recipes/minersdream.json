@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "DDD",
+    "PPP"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:torch"
+    },
+    "D": {
+      "item": "minecraft:diamond_block"
+    },
+    "P": {
+      "item": "minecraft:iron_pickaxe"
+    }
+  },
+  "result": {
+    "item": "orespawn:minersdream"
+  }
+}

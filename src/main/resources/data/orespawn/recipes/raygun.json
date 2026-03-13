@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " CL",
+    "SVG",
+    " VC"
+  ],
+  "key": {
+    "C": {
+      "item": "orespawn:crystalsticks"
+    },
+    "L": {
+      "item": "orespawn:laserball"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "V": {
+      "item": "orespawn:vortexeye"
+    },
+    "G": {
+      "item": "orespawn:greengoo"
+    }
+  },
+  "result": {
+    "item": "orespawn:raygun"
+  }
+}

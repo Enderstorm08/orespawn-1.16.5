@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " RU",
+    " RQ",
+    "RQ "
+  ],
+  "key": {
+    "R": { "item": "orespawn:ruby" },
+    "U": { "item": "orespawn:ultimate_sword" },
+    "Q": { "item": "orespawn:queen_scale" }
+  },
+  "result": { "item": "orespawn:bertha_blade" }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "orespawn:salt" },
+    { "item": "minecraft:porkchop" }
+  ],
+  "result": {
+    "item": "orespawn:bacon",
+    "count": 2
+  }
+}

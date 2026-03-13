@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NDN",
+    "NTN",
+    " B "
+  ],
+  "key": {
+    "N": {
+      "item": "orespawn:nightmare_scale"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "T": {
+      "item": "orespawn:ingot_titanium"
+    },
+    "B": {
+      "item": "minecraft:blaze_rod"
+    }
+  },
+  "result": {
+    "item": "orespawn:nightmare_sword"
+  }
+}

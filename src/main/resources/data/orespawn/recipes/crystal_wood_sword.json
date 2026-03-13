@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " P ",
+    " P ",
+    " S "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:oak_planks"
+    },
+    "S": {
+      "item": "orespawn:crystalsticks"
+    }
+  },
+  "result": {
+    "item": "orespawn:crystal_wood_sword"
+  }
+}

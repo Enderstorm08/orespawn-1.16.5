@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "TTT",
+    "TTT"
+  ],
+  "key": {
+    "T": {
+      "item": "orespawn:tigers_eye_ingot"
+    }
+  },
+  "result": {
+    "item": "orespawn:tigers_eye_block"
+  }
+}

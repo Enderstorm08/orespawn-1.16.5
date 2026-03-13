@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "PPP",
+    "AAA"
+  ],
+  "key": {
+    "P": { "item": "orespawn:popcorn_buttered_salted" },
+    "A": { "item": "minecraft:paper" }
+  },
+  "result": {
+    "item": "orespawn:popcorn_bag",
+    "count": 1
+  }
+}

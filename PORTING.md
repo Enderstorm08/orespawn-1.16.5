@@ -20,6 +20,14 @@ This workspace started with only the legacy `Orespawn-1.7.10-20.0.jar`, so the f
 
 ## Ported In This Slice
 
+- Added real custom safari mob ids for `gazelle`, `mantis`, and `stinky`, replacing their release and spawn-item stand-ins
+- Expanded the OreSpawn travel dimensions from two-biome checkerboards to three-biome sets each by adding:
+  - `danger_isles_meadow`
+  - `mining_paradise_depths`
+  - `crystal_world_glade`
+  - `rainbow_dimension_meadow`
+- Threaded the new safari mobs into the custom ant-dimension biome mixes so the worlds now have more distinct native fauna
+
 - Replaced the MDK example mod with a real `danger.orespawn.OreSpawn` entrypoint
 - Added DeferredRegister-based 1.16.5 registries for a first core materials-and-gear slice
 - Ported the following blocks as modern registry entries:
@@ -33,6 +41,62 @@ This workspace started with only the legacy `Orespawn-1.7.10-20.0.jar`, so the f
   - `block_amethyst`
   - `crystal_pink_block`
   - `tigers_eye_block`
+  - `blockenderpearl`
+  - `blockeyeofender`
+  - `ore_salt`
+  - `red_ant_troll_block`
+  - `termite_troll_block`
+  - `red_ant_nest`
+  - `termite_nest`
+  - `crystal_termite_nest`
+  - `rainbow_ant_nest`
+  - `unstable_ant_nest`
+  - `ancient_dried_spider_spawn_egg`
+  - `ancient_dried_bat_spawn_egg`
+  - `ancient_dried_cow_spawn_egg`
+  - `ancient_dried_pig_spawn_egg`
+  - `ancient_dried_squid_spawn_egg`
+  - `ancient_dried_chicken_spawn_egg`
+  - `ancient_dried_creeper_spawn_egg`
+  - `ancient_dried_skeleton_spawn_egg`
+  - `ancient_dried_zombie_spawn_egg`
+  - `ancient_dried_slime_spawn_egg`
+  - `ancient_dried_ghast_spawn_egg`
+  - `ancient_dried_enderman_spawn_egg`
+  - `ancient_dried_cave_spider_spawn_egg`
+  - `ancient_dried_silverfish_spawn_egg`
+  - `ancient_dried_magma_cube_spawn_egg`
+  - `ancient_dried_witch_spawn_egg`
+  - `ancient_dried_sheep_spawn_egg`
+  - `ancient_dried_wolf_spawn_egg`
+  - `ancient_dried_mooshroom_spawn_egg`
+  - `ancient_dried_ocelot_spawn_egg`
+  - `ancient_dried_blaze_spawn_egg`
+  - `ancient_dried_wither_skeleton_spawn_egg`
+  - `ancient_dried_snow_golem_spawn_egg`
+  - `ancient_dried_iron_golem_spawn_egg`
+  - `ancient_dried_villager_spawn_egg`
+  - `ancient_dried_cloud_shark_spawn_egg`
+  - `ancient_dried_mothra_spawn_egg`
+  - `pizza`
+  - `extremetorch`
+  - `crystaltorch`
+  - `krakenrepellent`
+  - `creeperrepellent`
+  - `island`
+  - `apple_leaves`
+  - `cherry_leaves`
+  - `peach_leaves`
+  - `firefly_plant`
+  - `butterfly_plant`
+  - `moth_plant`
+  - `strawberry_crop`
+  - `radish_crop`
+  - `rice_crop`
+  - `corn_crop`
+  - `quinoa_crop`
+  - `tomato_crop`
+  - `lettuce_crop`
 - Ported the following standalone items:
   - `ingot_uranium`
   - `ingot_titanium`
@@ -42,6 +106,156 @@ This workspace started with only the legacy `Orespawn-1.7.10-20.0.jar`, so the f
   - `tigers_eye_ingot`
   - `ruby`
   - `amethyst`
+  - `krakentooth`
+  - `wormtooth`
+  - `trextooth`
+  - `seamonsterscale`
+  - `caterkillerjaw`
+  - `seavipertongue`
+  - `vortexeye`
+  - `greengoo`
+  - `crystalsticks`
+  - `spiderrobotkit`
+  - `antrobotkit`
+  - `sparkfish`
+  - `rocksmall`
+  - `rock`
+  - `rockred`
+  - `rockcrystalred`
+  - `rockcrystalgreen`
+  - `rockcrystalblue`
+  - `rockcrystaltnt`
+  - `rockgreen`
+  - `rockblue`
+  - `rockpurple`
+  - `rockspikey`
+  - `rocktnt`
+  - `sunspoturchin`
+  - `waterball`
+  - `laserball`
+  - `acid`
+  - `deadirukandji`
+  - `iceball`
+  - `irukandjiarrow`
+  - `zookeeper`
+  - `zoo2`
+  - `zoo4`
+  - `zoo6`
+  - `zoo8`
+  - `zoo10`
+  - `cageempty`
+  - `cagecow`
+  - `cagepig`
+  - `cagechicken`
+  - `cagesheep`
+  - `cagewolf`
+  - `cageocelot`
+  - `cagehorse`
+  - `cagevillager`
+  - `cagecreeper`
+  - `cagezombie`
+  - `cageskeleton`
+  - `cagespider`
+  - `cagebat`
+  - `cagesquid`
+  - `cageslime`
+  - `cageghast`
+  - `cageenderman`
+  - `cagecavespider`
+  - `cagesilverfish`
+  - `cagemagmacube`
+  - `cagewitch`
+  - `cageblaze`
+  - `cagemooshroom`
+  - `cagewitherskeleton`
+  - `cagesnowgolem`
+  - `cageirongolem`
+  - `cagepeacock`
+  - `cagefairy`
+  - `cagerat`
+  - `cagefirefly`
+  - `cagegazelle`
+  - `cagestink`
+  - `cagemantis`
+  - `cagestinky`
+  - `cagecrab`
+  - `cagecloudshark`
+  - `cagemothra`
+  - `appletree_seed`
+  - `firefly_seed`
+  - `butterfly_seed`
+  - `moth_seed`
+  - `experience_tree_seed`
+  - `experience_catcher`
+  - `netherlost`
+  - `sifter`
+  - `creeperlauncher`
+  - `raygun`
+  - `thunderstaff`
+  - `wrench`
+  - `squidzookasmall`
+  - `deadstinkbug`
+  - `minersdream`
+  - `instantshelter`
+  - `instantgarden`
+  - `randomdungeon`
+  - `egggazelle`
+  - `eggstink`
+  - `eggmantis`
+  - `eggstinky`
+  - `eggfirefly`
+  - `eggbutterfly`
+  - `eggtermite`
+  - `eggcloudshark`
+  - `eggmoth`
+  - `eggmothra`
+  - `eggbrownant`
+  - `eggrainbowant`
+  - `eggunstableant`
+  - `eggrobot1`
+  - `eggrobot2`
+  - `eggrobot3`
+  - `eggrobot4`
+  - `eggredant`
+  - `eggrobot5`
+  - `eggrobot6`
+  - `eggantrobot`
+  - `eggspiderrobot`
+  - `salt`
+  - `butter`
+  - `popcorn`
+  - `popcorn_buttered`
+  - `popcorn_buttered_salted`
+  - `popcorn_bag`
+  - `corndog_raw`
+  - `corndog_cooked`
+  - `butter_candy`
+  - `bacon`
+  - `cooked_bacon`
+  - `cheese`
+  - `salad`
+  - `blt_sandwich`
+  - `strawberry`
+  - `strawberry_seed`
+  - `cherries`
+  - `peach`
+  - `rawpeacock`
+  - `cookedpeacock`
+  - `rockfish`
+  - `crabmeat`
+  - `cookedcrabmeat`
+  - `crabbypatty`
+  - `cherrytree_seed`
+  - `peachtree_seed`
+  - `crystal_apple`
+  - `radish`
+  - `rice`
+  - `corn_seed`
+  - `quinoa`
+  - `tomato_seed`
+  - `lettuce_seed`
+  - `magic_apple`
+  - `pizza`
   - `moth_scale`
   - `lava_eel`
   - `peacock_feather`
@@ -59,8 +273,15 @@ This workspace started with only the legacy `Orespawn-1.7.10-20.0.jar`, so the f
   - `queen_battle_axe`
   - `ultimate_bow`
   - `skate_bow`
+  - `battleaxesmall`
+  - `chainsawsmall`
+  - `bighammer`
   - `ultimate_fishing_rod`
   - `emerald_sword`
+  - `poisonsword`
+  - `ratsword`
+  - `fairysword`
+  - `mantisclaw`
   - `experience_sword`
   - `emerald_pickaxe`
   - `emerald_axe`
@@ -160,11 +381,112 @@ This workspace started with only the legacy `Orespawn-1.7.10-20.0.jar`, so the f
   - `big_splat`
   - `roar`
   - `hover`
+- Replaced the starter dimension biome placeholders with real registered OreSpawn biomes:
+  - `danger_isles`
+  - `danger_isles_grove`
+  - `mining_paradise`
+  - `mining_paradise_peaks`
+  - `crystal_world`
+  - `crystal_world_shore`
+  - `rainbow_dimension`
+  - `rainbow_dimension_grove`
+- Gave those dimensions their own surface palettes, color grading, and first-pass mob spawning so the ant-travel worlds are no longer just fixed vanilla biome shells.
+- Expanded the four OreSpawn travel dimensions from single-biome worlds into small checkerboard biome sets so they feel larger and less repetitive on first exploration.
+- Updated `unstable_ant_nest` so it now roulette-travels across the OreSpawn ant dimensions instead of only throwing players to a random Overworld location.
+- Added first-pass dimension-specific world features through the biome loading hooks:
+  - Danger Isles now generates extra ruby ore, salt ore, and red-ant troll deposits
+  - Mining Paradise now generates extra titanium, uranium, and termite troll deposits
+  - Crystal World now generates amethyst and tiger's-eye crystal replacement veins
+  - Rainbow Dimension now generates ruby, amethyst, and crystal-pink replacement patches
+- Added first-pass natural nest generation to the OreSpawn travel dimensions:
+  - Danger Isles naturally generates `red_ant_nest`
+  - Mining Paradise naturally generates `termite_nest`
+  - Crystal World naturally generates `crystal_termite_nest`
+  - Rainbow Dimension naturally generates `rainbow_ant_nest`
+  - All four can rarely generate `unstable_ant_nest`
+- Added first-pass surface landmark decoration so the dimensions read more clearly at a glance:
+  - Danger Isles now scatters apple/cherry leaf markers
+  - Mining Paradise now scatters exposed salt spires
+  - Crystal World now scatters tiger's-eye surface markers
+  - Rainbow Dimension now scatters peach-leaf and crystal-pink markers
+- Added larger visible landmark formations using rock-style generation:
+  - Danger Isles now generates ruby block boulders
+  - Mining Paradise now generates titanium block boulders
+  - Crystal World now generates crystal-pink boulders
+  - Rainbow Dimension now generates amethyst block boulders
+- Added small structure-lite mixed landmark heaps to make the dimensions feel more intentionally staged:
+  - Danger Isles now generates orchard-style heaps with apple/cherry leaves and mossy stone
+  - Mining Paradise now generates scrap heaps with stone, cobble, salt, and titanium
+  - Crystal World now generates mixed crystal growth heaps
+  - Rainbow Dimension now generates colorful garden heaps with leaves, crystal pink, and amethyst
+- Added dimension-themed Ancient Dried landmark heaps using the new dried spawn blocks:
+  - Danger Isles now generates passive-mob dried fields
+  - Mining Paradise now generates hostile underground-style dried fields
+  - Crystal World now generates eerie dried fields including MOTHRA
+  - Rainbow Dimension now generates mixed friendly/iconic dried fields including Cloud Shark
+- Added ambient identity tuning for the dimensions:
+  - custom ambient particles and loop/addition sounds across the OreSpawn biomes
+  - stronger dimension-type tuning for light level and coordinate scale so travel and atmosphere feel less like plain Overworld clones
+- Upgraded ant-dimension travel arrival pads into themed sanctuaries with a matching nest marker at the center so players land with an obvious return landmark.
+- Expanded the custom OreSpawn biome spawn makeup so each dimension now has more native life and hazards instead of only the first custom mob wave.
+- Added first custom ruin landmarks through a new simple feature pass:
+  - Danger Isles now generates red-ant themed ruin sites
+  - Mining Paradise now generates termite/mining themed ruin sites
+  - Crystal World now generates crystal termite sanctum ruins
+  - Rainbow Dimension now generates rainbow-ant themed ruin sites
+- Added generated grove/spire landmark formations through a second custom feature pass:
+  - Danger Isles now generates apple grove landmarks
+  - Mining Paradise now generates salt-spire landmarks
+  - Crystal World now generates crystal spire landmarks
+  - Rainbow Dimension now generates peach grove landmarks
+- Added larger monolith-style landmarks through another custom feature pass:
+  - Danger Isles now generates ruby/red-ant monoliths
+  - Mining Paradise now generates titanium/termite monoliths
+  - Crystal World now generates crystal-termite monoliths
+  - Rainbow Dimension now generates amethyst/rainbow-ant monoliths
+- Added themed flora-cluster landmark patches through a new custom feature pass:
+  - Danger Isles now generates orchard-style apple/cherry clusters
+  - Mining Paradise now generates salt-and-titanium scrap gardens
+  - Crystal World now generates amethyst and tiger's-eye crystal gardens
+  - Rainbow Dimension now generates peach-and-crystal blossom clusters
+- Added multi-piece compound landmark sites through another custom feature pass:
+  - Danger Isles now generates larger red-ant orchard compounds
+  - Mining Paradise now generates larger termite mining compounds
+  - Crystal World now generates larger crystal sanctum compounds
+  - Rainbow Dimension now generates larger rainbow-ant garden compounds
+- Added a new grand-landmark feature pass so each dimension now also gets a rarer large-format centerpiece structure:
+  - Danger Isles now generates large orchard sanctuaries
+  - Mining Paradise now generates large mining sanctuaries
+  - Crystal World now generates large crystal sanctuaries
+  - Rainbow Dimension now generates large rainbow garden sanctuaries
+- Added a second real ant-mob wave:
+  - `brown_ant`
+  - `unstable_ant`
+- Upgraded `eggbrownant` and `eggunstableant` from stand-in eggs to real Forge spawn eggs for the new custom ant entities.
+- Expanded the OreSpawn biome spawn makeup again so Brown Ant and Unstable Ant now appear in the relevant overworld and OreSpawn dimension biome mixes.
+- Added a first real passive creature wave beyond the bug/ant line:
+  - `peacock`
+  - `fairy`
+  - `rat`
+  - `stink_bug`
+- Upgraded `cagepeacock`, `cagefairy`, `cagerat`, and `cagestink` from stand-in release items to real custom-entity cages.
+- Upgraded `eggstink` from a stand-in bee egg to a real Forge spawn egg for the new custom Stink Bug entity.
+- Expanded the overworld and OreSpawn dimension biome spawn makeup so Peacock, Fairy, Rat, and Stink Bug now appear naturally in fitting habitats.
+- Added a broader survival progression recipe pass:
+  - ore processing for uranium, titanium, ruby, and amethyst
+  - nugget/ingot conversion for uranium and titanium
+  - compression and decompression for uranium, titanium, ruby, amethyst, crystal pink, and tiger's eye storage blocks
+  - full crafting recipes for Ruby, Amethyst, Emerald, Crystal Pink, and Tiger's Eye tools and armor
+  - modernized endgame crafting chains for Ultimate, Queen, Royal, and Big Bertha progression
+  - specialty progression recipes for Experience gear, Moth Scale armor, Lava Eel armor, Peacock armor, Nightmare Sword, Big Hammer, Attitude Adjuster, Skate String Bow, Slice, Crystal Apple, and Magic Apple
+  - utility progression recipes for ZooKeeper and Zoo Cage progression, Experience Catcher, craftable Firefly/Butterfly/Moth plants, and both crystal and vanilla-style Empty Critter Cage paths
+  - restored crystal-side progression recipes for Crystal Wood tools, Crystal Stone tools, Rat Sword, and Fairy Sword using modernized 1.16.5-survival ingredient paths
+  - added the first broad loot-table progression pass so Ruby, Amethyst, Salt, Uranium, and Titanium ores now drop their actual progression materials, and custom Peacock, Stink Bug, Moth, Firefly, Butterfly, Fairy, and Rat mobs now feed their related survival branches
 
 ## Next Migration Slices
 
-1. Generate 1.16.5 blockstates/models/lang coverage for the remaining block and item registries.
-2. Port the old spawn-block system into either proper spawn eggs, blocks with block-entity data, or both.
-3. Migrate entities in vertical slices, starting with simple passive mobs before bosses and multipart entities.
-4. Rebuild worldgen and dimensions around 1.16.5 biome loading, configured features, and `RegistryKey<World>`.
+1. Expand the first custom mob wave beyond Firefly, Butterfly, Moth, Red Ant, Rainbow Ant, and Termite into Peacock, Fairy, Rat, Gazelle, and Stink Bug.
+2. Expand the Ancient Dried spawn-block wave beyond the first hatching block set, especially the dinosaur, boss-part, and girlfriend/boyfriend lines.
+3. Replace the starter vanilla-renderer mob stand-ins with restored OreSpawn models, textures, and animations.
+4. Expand the new dimensions beyond the current starter ore/deposit/nest/landmark/boulder/heap/dried-field/ambience/sanctuary/ruin/grove/monolith/flora-cluster/compound pass into richer decorators, vegetation, structures, and stronger identity-specific terrain features.
 5. Port GUIs, containers, networking, and client renderers using modern screen/container/entity renderer APIs.

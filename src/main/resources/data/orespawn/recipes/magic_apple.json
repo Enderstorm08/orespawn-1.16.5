@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RAR",
+    "ACA",
+    "RAR"
+  ],
+  "key": {
+    "R": {
+      "item": "orespawn:ruby"
+    },
+    "A": {
+      "item": "orespawn:amethyst"
+    },
+    "C": {
+      "item": "orespawn:crystal_apple"
+    }
+  },
+  "result": {
+    "item": "orespawn:magic_apple"
+  }
+}

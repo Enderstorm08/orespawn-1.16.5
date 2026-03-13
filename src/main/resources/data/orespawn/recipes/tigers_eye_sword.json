@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "T",
+    "T",
+    "S"
+  ],
+  "key": {
+    "T": { "item": "orespawn:tigers_eye_ingot" },
+    "S": { "item": "orespawn:crystalsticks" }
+  },
+  "result": { "item": "orespawn:tigers_eye_sword" }
+}

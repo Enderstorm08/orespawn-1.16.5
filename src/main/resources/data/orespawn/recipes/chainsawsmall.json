@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "TPT",
+    " S "
+  ],
+  "key": {
+    "T": {
+      "item": "orespawn:ingot_titanium"
+    },
+    "P": {
+      "item": "orespawn:ultimate_pickaxe"
+    },
+    "S": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "orespawn:chainsawsmall"
+  }
+}

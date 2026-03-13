@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " MM",
+    " SM",
+    "S  "
+  ],
+  "key": {
+    "M": {
+      "item": "orespawn:amethyst"
+    },
+    "S": {
+      "item": "orespawn:crystalsticks"
+    }
+  },
+  "result": {
+    "item": "orespawn:mantisclaw"
+  }
+}

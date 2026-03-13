@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "orespawn:ingot_uranium"
+    }
+  ],
+  "result": {
+    "item": "orespawn:uranium_nugget",
+    "count": 9
+  }
+}

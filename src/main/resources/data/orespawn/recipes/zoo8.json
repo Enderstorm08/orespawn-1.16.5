@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "orespawn:zoo6"
+    },
+    {
+      "item": "minecraft:iron_bars"
+    },
+    {
+      "item": "orespawn:ruby"
+    }
+  ],
+  "result": {
+    "item": "orespawn:zoo8"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "orespawn:crystal_pink_block"
+    }
+  ],
+  "result": {
+    "item": "orespawn:crystal_pink_ingot",
+    "count": 9
+  }
+}

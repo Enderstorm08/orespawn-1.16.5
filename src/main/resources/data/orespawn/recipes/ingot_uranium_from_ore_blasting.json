@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "orespawn:ore_uranium"
+  },
+  "result": "orespawn:ingot_uranium",
+  "experience": 1.0,
+  "cookingtime": 100
+}

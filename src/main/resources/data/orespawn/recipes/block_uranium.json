@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "orespawn:ingot_uranium"
+    }
+  },
+  "result": {
+    "item": "orespawn:block_uranium"
+  }
+}

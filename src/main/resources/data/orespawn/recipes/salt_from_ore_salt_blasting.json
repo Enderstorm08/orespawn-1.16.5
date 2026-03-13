@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "orespawn:ore_salt"
+  },
+  "result": "orespawn:salt",
+  "experience": 0.1,
+  "cookingtime": 100
+}

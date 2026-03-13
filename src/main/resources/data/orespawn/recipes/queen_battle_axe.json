@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "QTQ",
+    "QTQ",
+    " S "
+  ],
+  "key": {
+    "Q": { "item": "orespawn:queen_scale" },
+    "T": { "item": "orespawn:ingot_titanium" },
+    "S": { "item": "orespawn:crystalsticks" }
+  },
+  "result": { "item": "orespawn:queen_battle_axe" }
+}

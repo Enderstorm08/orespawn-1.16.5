@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  T",
+    " TU",
+    "S U"
+  ],
+  "key": {
+    "T": { "item": "orespawn:ingot_titanium" },
+    "U": { "item": "orespawn:ingot_uranium" },
+    "S": { "item": "minecraft:string" }
+  },
+  "result": { "item": "orespawn:ultimate_fishing_rod" }
+}

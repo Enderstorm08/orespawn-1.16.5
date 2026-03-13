@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RR",
+    "RS",
+    " S"
+  ],
+  "key": {
+    "R": { "item": "orespawn:ruby" },
+    "S": { "item": "minecraft:stick" }
+  },
+  "result": { "item": "orespawn:ruby_axe" }
+}

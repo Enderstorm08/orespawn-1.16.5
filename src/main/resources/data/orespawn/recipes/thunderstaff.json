@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  G",
+    " SC",
+    "S  "
+  ],
+  "key": {
+    "G": {
+      "item": "orespawn:greengoo"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "item": "orespawn:crystalsticks"
+    }
+  },
+  "result": {
+    "item": "orespawn:thunderstaff"
+  }
+}

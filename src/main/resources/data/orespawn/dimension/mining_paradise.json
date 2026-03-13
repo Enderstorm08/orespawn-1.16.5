@@ -1,0 +1,16 @@
+{
+  "type": "orespawn:mining_paradise",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:checkerboard",
+      "biomes": [
+        "orespawn:mining_paradise",
+        "orespawn:mining_paradise_peaks",
+        "orespawn:mining_paradise_depths"
+      ],
+      "scale": 3
+    },
+    "settings": "orespawn:mining_paradise"
+  }
+}

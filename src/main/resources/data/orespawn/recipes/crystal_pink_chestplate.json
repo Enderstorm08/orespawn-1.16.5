@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C C",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": { "item": "orespawn:crystal_pink_ingot" }
+  },
+  "result": { "item": "orespawn:crystal_pink_chestplate" }
+}

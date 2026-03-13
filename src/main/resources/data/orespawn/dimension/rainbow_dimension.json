@@ -1,0 +1,16 @@
+{
+  "type": "orespawn:rainbow_dimension",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:checkerboard",
+      "biomes": [
+        "orespawn:rainbow_dimension",
+        "orespawn:rainbow_dimension_grove",
+        "orespawn:rainbow_dimension_meadow"
+      ],
+      "scale": 3
+    },
+    "settings": "orespawn:rainbow_dimension"
+  }
+}

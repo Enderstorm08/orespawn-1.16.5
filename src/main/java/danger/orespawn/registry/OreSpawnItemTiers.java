@@ -16,6 +16,8 @@ public enum OreSpawnItemTiers implements IItemTier {
     AMETHYST(4, 2000, 11.0F, 11.0F, 70, () -> Ingredient.of(OreSpawnItems.AMETHYST.get())),
     ULTIMATE(10, 3000, 15.0F, 36.0F, 100, () -> Ingredient.of(OreSpawnItems.INGOT_TITANIUM.get(), OreSpawnItems.INGOT_URANIUM.get())),
     NIGHTMARE(3, 1800, 12.0F, 26.0F, 60, () -> Ingredient.of(OreSpawnItems.NIGHTMARE_SCALE.get())),
+    BATTLE(3, 1500, 15.0F, 46.0F, 75, () -> Ingredient.of(OreSpawnItems.INGOT_TITANIUM.get(), OreSpawnItems.INGOT_URANIUM.get())),
+    CHAINSAW(3, 1500, 10.0F, 56.0F, 75, () -> Ingredient.of(OreSpawnItems.INGOT_TITANIUM.get(), OreSpawnItems.INGOT_URANIUM.get())),
     BERTHA(3, 9000, 15.0F, 496.0F, 100, () -> Ingredient.of(OreSpawnItems.BERTHA_BLADE.get(), OreSpawnItems.BERTHA_GUARD.get(), OreSpawnItems.BERTHA_HANDLE.get())),
     ROYAL(3, 10000, 15.0F, 746.0F, 150, () -> Ingredient.of(OreSpawnItems.CRYSTAL_PINK_INGOT.get(), OreSpawnItems.TIGERS_EYE_INGOT.get())),
     HAMMY(5, 2000, 15.0F, 82.0F, 100, () -> Ingredient.of(OreSpawnItems.INGOT_TITANIUM.get(), OreSpawnItems.INGOT_URANIUM.get())),

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "orespawn:rawpeacock"
+  },
+  "result": "orespawn:cookedpeacock",
+  "experience": 0.4,
+  "cookingtime": 100
+}

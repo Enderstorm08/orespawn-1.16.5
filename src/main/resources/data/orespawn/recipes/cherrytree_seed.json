@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "orespawn:cherries" }
+  ],
+  "result": {
+    "item": "orespawn:cherrytree_seed",
+    "count": 1
+  }
+}

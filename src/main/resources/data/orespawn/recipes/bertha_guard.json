@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "URU",
+    " T "
+  ],
+  "key": {
+    "U": { "item": "orespawn:ingot_uranium" },
+    "R": { "item": "orespawn:ruby" },
+    "T": { "item": "orespawn:crystalsticks" }
+  },
+  "result": { "item": "orespawn:bertha_guard" }
+}

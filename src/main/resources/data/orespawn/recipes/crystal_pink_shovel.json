@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C",
+    "S",
+    "S"
+  ],
+  "key": {
+    "C": { "item": "orespawn:crystal_pink_ingot" },
+    "S": { "item": "orespawn:crystalsticks" }
+  },
+  "result": { "item": "orespawn:crystal_pink_shovel" }
+}

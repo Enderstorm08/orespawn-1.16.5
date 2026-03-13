@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " Q",
+    "UQ",
+    "S "
+  ],
+  "key": {
+    "Q": { "item": "orespawn:queen_scale" },
+    "U": { "item": "orespawn:ultimate_sword" },
+    "S": { "item": "orespawn:crystalsticks" }
+  },
+  "result": { "item": "orespawn:royal_guardian_sword" }
+}

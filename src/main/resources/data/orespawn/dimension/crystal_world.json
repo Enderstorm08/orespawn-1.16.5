@@ -1,0 +1,16 @@
+{
+  "type": "orespawn:crystal_world",
+  "generator": {
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:checkerboard",
+      "biomes": [
+        "orespawn:crystal_world",
+        "orespawn:crystal_world_shore",
+        "orespawn:crystal_world_glade"
+      ],
+      "scale": 4
+    },
+    "settings": "orespawn:crystal_world"
+  }
+}

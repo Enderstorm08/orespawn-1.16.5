@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " TU",
+    "T U",
+    " TU"
+  ],
+  "key": {
+    "T": { "item": "orespawn:ingot_titanium" },
+    "U": { "item": "orespawn:ingot_uranium" }
+  },
+  "result": { "item": "orespawn:ultimate_bow" }
+}

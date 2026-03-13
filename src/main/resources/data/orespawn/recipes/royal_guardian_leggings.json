@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "QUQ",
+    "Q Q",
+    "Q Q"
+  ],
+  "key": {
+    "Q": { "item": "orespawn:queen_scale" },
+    "U": { "item": "orespawn:ultimate_leggings" }
+  },
+  "result": { "item": "orespawn:royal_guardian_leggings" }
+}

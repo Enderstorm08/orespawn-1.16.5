@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ICI",
+    "C C",
+    "ICI"
+  ],
+  "key": {
+    "C": {
+      "item": "orespawn:crystalsticks"
+    },
+    "I": {
+      "item": "orespawn:crystal_pink_ingot"
+    }
+  },
+  "result": {
+    "item": "orespawn:cageempty",
+    "count": 2
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Q Q",
+    "U U"
+  ],
+  "key": {
+    "Q": { "item": "orespawn:queen_scale" },
+    "U": { "item": "orespawn:ultimate_boots" }
+  },
+  "result": { "item": "orespawn:royal_guardian_boots" }
+}

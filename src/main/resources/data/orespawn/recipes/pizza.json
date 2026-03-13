@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "orespawn:tomato_seed" },
+    { "item": "orespawn:cheese" },
+    { "item": "orespawn:cooked_bacon" },
+    { "item": "minecraft:bread" }
+  ],
+  "result": {
+    "item": "orespawn:pizza",
+    "count": 1
+  }
+}
